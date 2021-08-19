@@ -1,5 +1,5 @@
-#include <gtest/gtest.h>
 #include "correlation.hpp"
+#include <gtest/gtest.h>
 
 TEST(SumOfMultiplies, TestCase1)
 {
