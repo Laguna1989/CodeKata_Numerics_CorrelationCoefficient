@@ -1,6 +1,6 @@
+#include "correlation.hpp"
 #include <gtest/gtest.h>
 #include <tuple>
-#include "correlation.hpp"
 
 class SumTestFixture : public ::testing::TestWithParam<std::tuple<std::vector<double>, double>> {
 };
