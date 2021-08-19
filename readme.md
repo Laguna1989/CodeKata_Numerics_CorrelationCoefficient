@@ -28,8 +28,6 @@ completely unrelated", and a value of -1 or 1 means "completely related". It is 
 
 # Exercise
 
-## Implementation
-
 * implement the function `calculate_sum(values)` in `src/correlation`, which calculates the sum of the values
 * implement the function `calculate_sum_of_squares(values)` in `src/correlation`, which calculates the sum of the
   squared values
@@ -37,6 +35,12 @@ completely unrelated", and a value of -1 or 1 means "completely related". It is 
   values
 * Now implement the function `correlation` in `src/correlation`, which will calculate the value `r` by using all the
   previously defined functions.
+
+## Hints for C++
+`std::accumulate` and `std::inner_product` can prove helpful.
+
+## Hints for Python
+`np.multiply` can prove helpful.
 
 ## Application
 
